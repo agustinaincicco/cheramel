@@ -70,7 +70,7 @@
 </header>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <div class="container-fluid">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     <img src="/images/LOGO_4.png" alt="">
@@ -80,9 +80,9 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <!-- Left Side Of Navbar -->
-                    <ul class="navbar-nav mr-auto section-nav">
-                        <div class="collapse navbar-collapse" id="navbarNav">
+                    <!-- Left Side Of Navbar<ul class="navbar-nav mr-auto section-nav">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">  -->
+                            
                             <ul class="navbar-nav ml-md-auto">
                                 <li class="nav-item active">
                                     <a class="nav-link" href="/home">INICIO <span class="sr-only">(current)</span></a>
@@ -124,7 +124,7 @@
                         </article>
                         <article class="col-12 text-center col-sm-6 text-sm-left text-md-left col-lg-3 textofoot">
                             <h4>DIRECCION</h4>
-                            <p><strong>Calle Falsa 123</strong><br>CABA</p>
+                            <p><strong>Coronel Uzal 4290</strong><br>Olivos</p>
                         </article>
                         <article class="col-12 text-center col-sm-6 text-sm-left text-md-left col-lg-3 textofoot">
                             <h4>HORARIOS</h4>
@@ -140,9 +140,9 @@
 
                                 <a href="http://www.instagram.com"><img class="size" src="{{ asset('images/instagram.png') }}" alt="instagram"></a>
 
-                                <a href="https://web.whatsapp.com/send?phone=+541166793520&text=Hola!"><img class="sizedesktop" src="{{ asset('images/whatsapp.png') }}" alt="whatsapp"></a>
+                                <a href="https://web.whatsapp.com/send?phone=+541166793520&text=Hola!"><img class="sizedesktop" src="{{ asset('images/whatsapp5.png') }}" alt="whatsapp"></a>
 
-                                <a href="https://wa.me/541166793520?text=Hola"><img class="sizemobile" src="{{ asset('images/whatsapp.png') }}" alt="whatsapp"></a>
+                                <a href="https://wa.me/541166793520?text=Hola"><img class="sizemobile" src="{{ asset('images/whatsapp5.png') }}" alt="whatsapp"></a>
                             </div>
                         </article>
                     </div>
