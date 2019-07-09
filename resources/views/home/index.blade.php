@@ -48,6 +48,7 @@
     @endif
     @endforeach
 </section>
+
 <section class="col-12 col-md-12 col-lg-12 row productos">
     <article class="col-12 col-md-4 col-lg-4">  
         <div class="card bg-light text-black elementos">
@@ -64,4 +65,18 @@
         </div>
     </article>  
 </section>
+<section id="newsletter" class="newsletter text-center">
+    <div class="overlay">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-9 col-lg-6">
+            <form class="form-inline" method="" action="#">
+              <input type="email" class="form-control " placeholder="Subscribite para recibir todas las promos!" name="email">
+              <button type="submit" class="btn btn-default"><i class="fa fa-location-arrow"></i>Suscribir</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 @endsection
