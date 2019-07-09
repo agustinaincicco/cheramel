@@ -5,7 +5,7 @@
 	<div class="row formulario">
 		<form>
 			<div class="form-group">
-				<h2>Contactanos</h2>
+				<h2>Contactanos y envianos tu consulta</h2>
 				<label for="exampleFormControlInput1">NOMBRE</label>
 				<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
 			</div>
