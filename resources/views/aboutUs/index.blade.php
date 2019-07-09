@@ -4,7 +4,7 @@
     <div class="col-xs-12 col-md-12 col-lg-12">
         <h1>SOBRE NOSOTROS</h1>
         <br><br>
-        <H2>Diseño romántico y sofisticado que rescata la esencia de cada espacio</H2>
+        <H2>Diseño romántico y sofisticado.</H2>
         <br><br>
         <p>
         Cheramel nace como una necesidad de su creadora de expresar su pasión por la decoración de interiores, sus viajes por el mundo, el amor por la cocina y sus aromas. Desde 2007 que ofrece en sus locales una colección única con diseño propio de muebles de hierro (camastros, cunas, sillas y mesas), iluminación (arañas, pantallas, lámparas de pie) blanquería con originales telas importadas (acolchados, almohadones, chichoneras) y accesorios (percheros, muñecos de tela, espejos tallados a mano, cajas enteladas, entre otros). Su estilo romántico,sofisticado y cosmopolita está presente en cada una de las creaciones de la marca.
@@ -34,11 +34,6 @@
           <div class="team-block bottom">
             <img src="images/Gaston.jpg" class="img-responsive" alt="img">
             <div class="team-content">
-              <ul class="list-unstyled">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-              </ul>
               <span>Director Manager</span>
               <h4>Gastón Belio</h4>
             </div>
@@ -49,11 +44,6 @@
           <div class="team-block bottom">
             <img src="images/Gaston.jpg" class="img-responsive" alt="img">
             <div class="team-content">
-              <ul class="list-unstyled">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-              </ul>
               <span>CEO - Founder</span>
               <h4>Karen Porta</h4>
             </div>
@@ -64,11 +54,6 @@
           <div class="team-block bottom">
             <img src="images/Agustina.jpg" class="img-responsive" alt="img">
             <div class="team-content">
-              <ul class="list-unstyled">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-              </ul>
               <span>Web Designer</span>
               <h4>Agustina Incicco</h4>
             </div>

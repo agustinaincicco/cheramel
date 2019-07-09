@@ -4,6 +4,7 @@
   overflow: hidden;
   position: relative;
   width: 100%;
+  font-size: 12px;
 }
 
 @media (max-width: 991px) {
@@ -27,33 +28,9 @@
   transition: all 0.5s ease-in-out 0s;
 }
 
-#team .team-block .team-content ul {
-  display: block;
-  width: 100%;
-}
-
-#team .team-block .team-content ul li {
-  display: inline-block;
-}
-
-#team .team-block .team-content ul li a {
-  color: #626262;
-}
-
-#team .team-block .team-content ul li a .fa {
-  float: left;
-  padding-left: 10px;
-  padding-right: 10px;
-  transition: 0.3s;
-}
-
-#team .team-block .team-content ul li a .fa:hover {
-  color: #71c55d;
-}
-
 #team .team-block .team-content ul > span {
   display: inline-block;
-  font-size: 14px;
+  font-size: 10px;
   font-weight: 300;
   letter-spacing: 0.5px;
   margin-bottom: 20px;
