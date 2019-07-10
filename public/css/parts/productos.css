@@ -23,4 +23,15 @@
       padding: 10px;
     }
 
+    .lista article img{
+      width: 50px;
+    }
+
+    .monto{
+      padding: 30px;
+      text-align: center;
+      justify-content: right;
+      font-size: 10px;
+    }
+
 
