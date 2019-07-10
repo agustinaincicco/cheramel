@@ -10,6 +10,10 @@ class AboutUsController extends Controller
 {
     public function index()
     {
-        return view('aboutUs.index');
+        $count = [];
+        if (Auth::check()){
+            $count = Cart::where('user_id', Auth::user()->id)->count();
+        }
+        return view('aboutUs.index')->with('count', $count);
     }
 }
