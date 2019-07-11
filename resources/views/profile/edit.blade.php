@@ -1,11 +1,12 @@
 @extends('layouts.app')
 @section('content')
+<br><br>
 <div class= "container">
-    <br><br>
-<section class="col-lg-12 row">
-    <article class="col-lg-7 ">
+<section class="row">
+    <article class="col-lg-7">
         <div class='avatar' style='background-image: url(/storage/{{$user->avatar}}')></div>
     </article>
+    
     <article class="col-lg-5">
         <h3 class="">Editar Perfil:</h3>
         <h2>{{ $user->name }}</h2>
@@ -18,7 +19,6 @@
             </ul>
         </div>
         @endif
-        
         <form class="" action="" method="POST" enctype="multipart/form-data">
         {{ method_field('PATCH') }}
         @csrf

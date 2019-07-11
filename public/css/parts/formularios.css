@@ -41,15 +41,15 @@
 }
 
 .avatar {
-    height: 400px;
-    width: 400px;
+    height: 370px;
+    width: 370px;
     background-repeat: no-repeat;
     background-position: 50%;
     border-radius: 50%;
     background-size: 100% auto;
+    background-position: center;
+    margin-bottom: 50px;
+    margin-left: 5px;
 }
 
-.avatarPosition{
-    justify-content: center;
-    align-content: center;
-}
+
