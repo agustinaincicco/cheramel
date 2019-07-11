@@ -1,5 +1,7 @@
 @extends('layouts.app')
 @section('content')
+<div class= "container">
+    <br><br>
 <section class="col-lg-12 row">
     <article class="col-lg-7 ">
         <div class='avatar' style='background-image: url(/storage/{{$user->avatar}}')></div>
@@ -43,5 +45,7 @@
             </div>
         </form>
     </article>
+</div>
 </section>
+<br><br>
 @endsection
