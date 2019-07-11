@@ -42,7 +42,7 @@
 
        <div class="col-md-6 col-md-4 col-lg-3">
           <div class="team-block bottom">
-            <img src="images/Gaston.jpg" class="img-responsive" alt="img">
+            <img src="images/karen.jpg" class="img-responsive" alt="img">
             <div class="team-content">
               <span>CEO - Founder</span>
               <h4>Karen Porta</h4>
