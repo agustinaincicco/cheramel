@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
 use App\User;
 use App\Cart;
 use Auth;
@@ -40,6 +41,10 @@ class UserController extends Controller
         $user->name = $request->input('name') !== $user->name ? $request->input('name') : $user->name;
         $user->surname = $request->input('surname') !== $user->surname ? $request->input('surname') : $user->surname;
         $user->avatar = $request->hasFile('avatar') ? $request->file('avatar')->store('avatar', 'public') : $user->avatar;
+        if ($request->input('password') == $request->input('repassword') && strlen($request->input('password')) > 7){
+            $user->password = Hash::make($request->input('password'));
+            $length = strlen($request->input('password'));
+        }
         $user->save();
 
         return redirect('/profile/edit/' . $user->id);

@@ -53,7 +53,7 @@ class RegisterController extends Controller
             'surname' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
-            'avatar' => 'file'
+            'avatar' => ['file', 'required']
         ]);
     }
 
@@ -66,7 +66,7 @@ class RegisterController extends Controller
     
     protected function create(array $data)
     {
-        
+        $rutaAvatar = null;
         if(isset($data['avatar'])){
             $rutaAvatar = $data['avatar']->store('avatar','public');
         }

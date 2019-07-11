@@ -31,7 +31,7 @@
                 <input type="text" name="surname" value="{{ $user->surname }}" class="form-control">
             </div>
             <div class="form-group">
-                <label for="Precio">Email</label>
+                <label for="Email">Email</label>
                 <label type="email" name="email" value="" class="form-control">{{ $user->email }}</label>
             </div>
             <label for="Descripción">Avatar</label>
@@ -39,6 +39,14 @@
                 <div class="custom-file">
                     <input type="file" class="" id="photopath" name="avatar" value="{{ $user->avatar }}">
                 </div>
+            </div>
+            <div class="form-group">
+                <label for="Password">Password</label>
+                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" autocomplete="new-password">
+            </div>
+            <div class="form-group">
+                <label for="repassword">Re password</label>
+                <input id="password-confirm" type="password" class="form-control" name="password_confirmation"  autocomplete="new-password">
             </div>
             <div class="form-group">
                 <input type="submit" class="btn btn-danger" value="Confirmar Cambios">

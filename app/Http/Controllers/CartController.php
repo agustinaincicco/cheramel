@@ -23,12 +23,19 @@ class CartController extends Controller
         $cart = Cart::all();
         $userItems = DB::table('carts')->where('user_id', '=', Auth::user()->id)->get();
         $count = Cart::where('user_id', Auth::user()->id)->count();
+        $total = 0;
+        foreach ($cart as $item) {
+            if($item->user->id == Auth::user()->id){
+                $total = $total + $item->product->amount;
+            }
+        }
         return view('cart.index')
             ->with('products', $products)
             ->with('categories', $categories)
             ->with('count', $count)
             ->with('userItems', $userItems)
-            ->with('cart', $cart);
+            ->with('cart', $cart)
+            ->with('total', $total);
     }
 
     /**

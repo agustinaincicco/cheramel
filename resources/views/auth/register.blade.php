@@ -29,8 +29,13 @@
             @enderror
             <br>
             <div class="custom-file">
-                <input type="file" class="" id="avatar" name="avatar" value="">
+                <input type="file" class="" id="avatar" name="avatar" value="" class="form-control @error('avatar') is-invalid @enderror" required>
             </div>
+            @error('avatar')
+                <span class="invalid-feedback" role="alert">
+                    <strong>{{ $message }}</strong>
+                </span>
+            @enderror
             <br><br>
             <input id="password" type="password" placeholder="Password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
             @error('password')
